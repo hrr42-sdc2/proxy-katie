@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.use(cors());
 
 app.use(proxy('/api/restaurant', {target: 'http://localhost:3001/'}));
-app.use(proxy('/restaurantid', {target: 'http://ec2-52-53-155-238.us-west-1.compute.amazonaws.com:3004/'}));
+app.use(proxy('/restaurantid', {target: 'http://localhost:3004'}));
 app.use(proxy('/restaurant', {target: 'http://localhost:3002'}));
 
 // app.get('/api/restaurant/:id', (req, res) => {
