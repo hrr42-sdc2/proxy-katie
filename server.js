@@ -13,20 +13,8 @@ app.use(express.static('public'));
 app.use(cors());
 
 app.use(proxy('/api/restaurant', {target: 'http://localhost:3001/'}));
-app.use(proxy('/restaurantid', {target: 'http://localhost:3004'}));
+app.use(proxy('/restaurantid', {target: 'http://ec2-52-53-155-238.us-west-1.compute.amazonaws.com:3004/'}));
 app.use(proxy('/restaurant', {target: 'http://localhost:3002'}));
-
-// app.get('/api/restaurant/:id', (req, res) => {
-//   res.redirect(`http://localhost:3001/api/restaurant/${req.params.id}`);
-// });
-
-// app.get('/restaurantid/:id', (req, res) => {
-//   res.redirect(`http://localhost:3004/restaurantid/${req.params.id}`);
-// });
-
-// app.get('/restaurant/:restaurantId', (req, res) => {
-//   res.redirect(`http://localhost:3002/restaurant/${req.params.id}`);
-// });
 
 app.listen(port, () => {
   console.log('Port 3000 is listening');
