@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "webpack --watch",
-    "start": "nodemon server/index.js --watch"
+    "start": "nodemon server.js --watch"
   },
   "dependencies": {
     "@babel/cli": "^7.7.4",
@@ -39,12 +39,13 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "http-proxy-middleware": "^0.20.0",
     "resize-observer-polyfill": "^1.5.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "version": "1.0.0",
-  "main": "server/index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hrr42-fec-team1/opentable-imagecarousel-service.git"
