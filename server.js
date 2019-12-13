@@ -12,9 +12,9 @@ app.use(parser.json());
 app.use(express.static('public'));
 app.use(cors());
 
-app.use('/api/restaurant/:id', proxy({target: 'http://localhost:3001/'}));
-app.use('/restaurantid/:id', proxy({target: 'http://localhost:3004/?restaurantid=1'}));
-app.use('/restaurant/:restaurantId', proxy({target: 'http://localhost:3002'}));
+app.use(proxy('/api/restaurant/:id', {target: 'http://localhost:3001/'}));
+app.use(proxy('/restaurantid/:id', {target: 'http://localhost:3004/?restaurantid=1'}));
+app.use(proxy('/restaurant/:restaurantId', {target: 'http://localhost:3002'}));
 
 // app.get('/api/restaurant/:id', (req, res) => {
 //   res.redirect(`http://localhost:3001/api/restaurant/${req.params.id}`);
