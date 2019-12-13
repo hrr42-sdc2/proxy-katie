@@ -40,7 +40,7 @@ body{
 
 #imageCarousel-session {
   position: absolute;
-  top: 55%;
+  top: 80%;
   left: 5%;
   width: 190%;
 }
@@ -55,5 +55,5 @@ body{
 #app {
   position: absolute;
   left: 5%;
-  top:93%;
+  top:120%;
 }
