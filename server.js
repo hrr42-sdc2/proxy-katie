@@ -1,5 +1,5 @@
 const express = require ('express');
-const parser = require('body-parser');
+// const parser = require('body-parser');
 const cors = require('cors');
 var proxy = require('http-proxy-middleware');
 
@@ -8,7 +8,7 @@ let port = 3000;
 
 let app = express();
 
-app.use(parser.json());
+// app.use(parser.json());
 app.use(express.static('public'));
 app.use(cors());
 
