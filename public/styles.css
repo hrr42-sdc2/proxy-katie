@@ -8,6 +8,7 @@ body{
 #headers{
   position: absolute;
   top: 1%;
+  font-family: "Joshfin Sans";
 }
 
 #outer-frame-container{
@@ -29,7 +30,7 @@ body{
 }
 #imageCarouselTop-session {
   position: absolute;
-  top: 7%;
+  top: 8%;
   width: 109.3%;
 }
 #overview-section {
@@ -40,7 +41,7 @@ body{
 
 #imageCarousel-session {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 5%;
   width: 190%;
 }
