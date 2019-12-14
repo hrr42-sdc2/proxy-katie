@@ -54,18 +54,18 @@
   top: 35%;
 }
 
-#mapper {
+/* #mapper {
   position: absolute;
   top: 98%;
   left: 5%;
-}
+} */
 
-#belowmapper{
+/* #belowmapper{
   position: absolute;
   top: 103%;
   left: -3%;
 
-}
+} */
 #menu-section {
   font-family: "Trebuchet MS", Helvetica, serif;
   font-size: 32px;
