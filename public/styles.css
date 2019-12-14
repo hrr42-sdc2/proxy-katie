@@ -1,6 +1,6 @@
 
 
-body{
+#oc{
   background-color: rgba(128, 128, 128, 0.096);
   height: 3000px;
 }
@@ -22,7 +22,7 @@ body{
 }
 #inner-frame-container{
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 17%;
   width: 40%;
   height: 100%;
@@ -42,7 +42,7 @@ body{
 
 #imageCarousel-session {
   position: absolute;
-  top: 90%;
+  top: 70%;
   left: 5%;
   width: 192%;
 }
@@ -51,19 +51,19 @@ body{
   background-color: white;
   position: absolute;
   left: 62%;
-  top: 40%;
+  top: 35%;
 }
 
 #mapper {
   position: absolute;
-  top: 95%;
-  left: 63%;
+  top: 98%;
+  left: 5%;
 }
 
 #belowmapper{
   position: absolute;
-  top: 96%;
-  left: 61%;
+  top: 103%;
+  left: -3%;
 
 }
 #menu-section {
@@ -71,5 +71,5 @@ body{
   font-size: 32px;
   position: absolute;
   left: 5%;
-  top:140%;
+  top:110%;
 }
