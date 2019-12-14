@@ -22,15 +22,15 @@ body{
 }
 #inner-frame-container{
   position: absolute;
-  top: 33%;
-  left: 20%;
+  top: 40%;
+  left: 17%;
   width: 40%;
   height: 100%;
   background-color: white;
 }
 #imageCarouselTop-session {
   position: absolute;
-  top: 8%;
+  top: 10%;
   width: 109.3%;
 }
 #overview-section {
@@ -42,34 +42,34 @@ body{
 
 #imageCarousel-session {
   position: absolute;
-  top: 70%;
+  top: 90%;
   left: 5%;
-  width: 180%;
+  width: 192%;
 }
 
 #reservationAndMap{
   background-color: white;
   position: absolute;
   left: 62%;
-  top: 33%;
+  top: 40%;
 }
 
 #mapper {
   position: absolute;
-  top: 80%;
+  top: 95%;
   left: 63%;
 }
 
 #belowmapper{
   position: absolute;
-  top: 83%;
+  top: 96%;
   left: 61%;
 
 }
 #menu-section {
   font-family: "Trebuchet MS", Helvetica, serif;
-  font-size: 27px;
+  font-size: 32px;
   position: absolute;
   left: 5%;
-  top:110%;
+  top:140%;
 }
