@@ -1,7 +1,7 @@
-.reservation {
-  /* margin: auto; */
-  width: 360px;
-  padding: 10px;
+.reservatin {
+  margin: auto;
+  width: 320px;
+  padding: 15px;
   box-shadow: rgba(153, 153, 153, 0.4) 0px 2px 8px 0px;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -31,23 +31,58 @@
 .bookings-today {
   margin-bottom: 5px;
 }
-input {
+
+#reservation input {
   border: 0px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
 }
 
-input:focus {
+#reservatin input:hover {
+  border-bottom: 2px solid rgb(218, 55,67);
+}
+
+#reservation input:focus {
   outline: none;
 }
 
-select {
+#reservation select {
   border: 0px;
   background-color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px
 }
 
-select:focus {
+#reservation select:hover {
+  border-bottom: 2px solid rgb(218, 55,67)!;
+}
+
+#reservation select:focus {
   outline: none;
+}
+
+#aftermapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 500px;
+  width: 320px;
+  padding: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.below-mapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 224px;
+  width: 320px;
+  padding: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  color: rgb(218, 55,67);
+}
+
+.streetBox {
+  width: 318px;
+  height: 45px;
+  border: solid 2px lightGrey;
 }

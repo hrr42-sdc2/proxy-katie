@@ -7,8 +7,8 @@ body{
 
 #headers{
   position: absolute;
-  top: 1%;
-  font-family: "Joshfin Sans";
+  top: 0;
+  left:0;
 }
 
 #outer-frame-container{
@@ -37,24 +37,39 @@ body{
   position: absolute;
   top: 5%;
   left: 5%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #imageCarousel-session {
   position: absolute;
   top: 70%;
   left: 5%;
-  width: 190%;
+  width: 180%;
 }
 
-#reservation {
+#reservationAndMap{
   background-color: white;
-  position: fixed;
-  top: 35%;
+  position: absolute;
   left: 62%;
+  top: 33%;
 }
 
+#mapper {
+  position: absolute;
+  top: 80%;
+  left: 63%;
+}
+
+#belowmapper{
+  position: absolute;
+  top: 83%;
+  left: 61%;
+
+}
 #menu-section {
+  font-family: "Trebuchet MS", Helvetica, serif;
+  font-size: 27px;
   position: absolute;
   left: 5%;
-  top:120%;
+  top:110%;
 }
