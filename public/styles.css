@@ -47,25 +47,29 @@
   width: 192%;
 }
 
-#reservationAndMap{
+#reservationT{
   background-color: white;
   position: absolute;
   left: 62%;
   top: 35%;
+  width: 22%;
+  height: 100%;
+}
+#map{
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  height: 100%;
+  width: 100%;
 }
 
-/* #mapper {
-  position: absolute;
-  top: 98%;
-  left: 5%;
-} */
+#belowmap{
+  /* position: absolute; */
+  position:relative;
+  top: 0%;
+  left: -2%;
+}
 
-/* #belowmapper{
-  position: absolute;
-  top: 103%;
-  left: -3%;
-
-} */
 #menu-section {
   font-family: "Trebuchet MS", Helvetica, serif;
   font-size: 32px;
